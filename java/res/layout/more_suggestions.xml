@@ -33,5 +33,5 @@
         latin:keyLetterSize="@dimen/suggestion_text_size"
         latin:keyLabelSize="@dimen/suggestion_text_size"
         latin:keyHintLetterRatio="@fraction/more_suggestions_info_ratio"
-        latin:keyHintLetterColor="@android:color/white" />
+        latin:keyHintLetterColor="@color/key_text_color_grey" />
 </LinearLayout>
