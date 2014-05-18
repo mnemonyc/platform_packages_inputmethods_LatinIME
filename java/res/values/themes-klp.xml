@@ -104,7 +104,7 @@
     <style
         name="MoreKeysKeyboardContainer.KLP"
     >
-        <item name="android:background">@android:color/white</item>
+        <item name="android:background">@color/key_background_color_grey</item>
     </style>
     <style
         name="SuggestionStripView.KLP"
