@@ -24,4 +24,5 @@
     android:background="@drawable/keyboard_key_feedback_klp"
     android:minWidth="32dp"
     android:gravity="center"
+	android:TextColor="@color/key_text_color_holo"
 />
