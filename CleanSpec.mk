@@ -45,7 +45,7 @@
 #$(call add-clean-step, rm -rf $(PRODUCT_OUT)/data/*)
 
 $(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/LatinIME*)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/HazyKeyboard.apk)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/app/LatinIME.apk)
 
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/libjni_hazyime_intermediates)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/libjni_hazyime_intermediates)
