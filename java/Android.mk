@@ -23,10 +23,10 @@ LOCAL_PACKAGE_NAME := HazyKeyboard
 
 LOCAL_CERTIFICATE := shared
 
-# We want to package libjni_hazyime.so into the apk.
-LOCAL_JNI_SHARED_LIBRARIES := libjni_hazyime
-# We want to install libjni_hazyime.so to the system partition if HazyKeyboard gets installed.
-LOCAL_REQUIRED_MODULES := libjni_hazyime
+# We want to package libjni_latinime.so into the apk.
+LOCAL_JNI_SHARED_LIBRARIES := libjni_latinime
+# We want to install libjni_latinime.so to the system partition if LatinIME gets installed.
+LOCAL_REQUIRED_MODULES := libjni_latinime
 
 LOCAL_STATIC_JAVA_LIBRARIES := android-common inputmethod-common android-support-v4
 
